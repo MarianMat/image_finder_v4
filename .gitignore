@@ -1,0 +1,13 @@
+.env
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+data/images/*
+data/qdrant/*
+!data/images/.gitkeep
+!data/qdrant/.gitkeep
+
+.streamlit/secrets.toml
+.DS_Store
